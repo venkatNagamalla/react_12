@@ -1,0 +1,65 @@
+/* Write your CSS code here. */
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto';
+  box-sizing: border-box;
+}
+
+.bg-container {
+  background: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #ffffff;
+  width: 70%;
+  border-radius: 10px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+@media (min-width: 786px) {
+  .card-container {
+    width: 45%;
+  }
+}
+
+.heading {
+  color: #0f172a;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+}
+
+.list-container {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  padding: 20px;
+}
+
+.love-image {
+  width: 50px;
+}
+
+.thank-you-text {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.description {
+  color: #1e293b;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 10px;
+}

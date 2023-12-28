@@ -1,0 +1,23 @@
+.emoji {
+  height: 50px;
+  width: 50px;
+}
+
+.name {
+  font-family: 'Roboto';
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.list-element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
